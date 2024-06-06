@@ -6,7 +6,7 @@ sudo cp -r /usr/share/tomcat9-admin/* /var/lib/tomcat9/webapps/ -v
 sudo chmod 777 /var/lib/tomcat9/conf/tomcat-users.xml
 sudo cat <<EOF >> /var/lib/tomcat9/conf/tomcat-users.xml
 <role rolename="manager-script"/>
-<user username="tomcat" password="password" roles="manager-script"/>
+<user username="tomcat" password="g" roles="manager-script"/>
 <role rolename="admin-gui"/>
 <role rolename="manager-gui"/>
 <user username="admin" password="admin" roles="admin-gui,manager-gui"/>
